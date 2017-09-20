@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>landing</title>
+    <link rel="stylesheet" href="libs/animate/animate.css">
     <link rel="stylesheet" href="css/style.css">
     
 </head>
@@ -39,15 +40,15 @@
     </div>
   </header>
   <div class="white">
-      <div class="white_item --1">
+      <div class="white_item --1" id = "ani-zoom">
           <img src="media/shape-2.png" alt="">
           <h2>better design</h2>
       </div>
-      <div class="white_item --2">
+      <div class="white_item --2" id = "ani-zoom1">
           <img src="media/shape-3.png" alt="">
           <h2>customise</h2>
       </div>
-      <div class="white_item --2">
+      <div class="white_item --2" id = "ani-zoom2">
           <img src="media/shape-4.png" alt="">
           <h2>Its Free</h2>
       </div>
@@ -55,12 +56,12 @@
   
   <div class="news">
     <h2>Lorem ipsum dolor sit amet.</h2>
-    <div class="news-item">
+    <div class="news-item" id = "ani-left">
         <div class="news-item--text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, soluta.</p></div>
         <div class="news-item--pic"><img src="media/pic.png" alt=""></div>
         <div class="news-item--twit"><img src="media/twitter.png" alt=""></div>
     </div>
-    <div class="date">
+    <div class="date" id = "ani-down">
         
         <p id = "data">28</p>
         <br>
@@ -86,6 +87,12 @@
           </div>
       </div>
   </div>
-   
+  
+  
+  <script src="libs/jquery/jquery-1.11.2.min.js"></script>
+  <script src="libs/waypoints/waypoints.min.js"></script>
+  <script src="libs/animate/animate-css.js"></script>
+  <script src="libs/plugins-scroll/plugins-scroll.js"></script>
+  <script src="js/common.js"></script>
 </body>
 </html>

@@ -19,7 +19,7 @@ header {
     flex-direction: column;
     flex-wrap: wrap;
     background-image: url('../media/bg-1.png');
-    height: 566px;
+    height: 700px;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -165,10 +165,22 @@ header .video .name h1 {
     
 }
 
+#ani-zoom{
+    
+}
+#ani-zoom1{
+    animation-delay: 0.5s;
+}
+#ani-zoom2{
+    animation-delay: 1s;
+    
+}
+
 .news{
     
     background-image: url('../media/bg-2.png');
-    height: 509px;
+    min-height: 509px;
+    height: auto;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -236,8 +248,20 @@ header .video .name h1 {
     margin-left: 10%;
     width: 8%;
     align-content: center;
+    padding: 10px;
     
 }
+#ani-left {
+    
+    animation-duration: 3s;
+}
+
+#ani-down{
+    
+    animation-delay: 2s;
+    animation-duration: 2s;
+}
+
 #data {
     display: flex;
     margin-left: 30%;
@@ -313,4 +337,5 @@ header .video .name h1 {
     color: #a9a9a7;
     font-weight: 400;
     margin: 10px 10px 10px 10px;
-}z
+}
+
