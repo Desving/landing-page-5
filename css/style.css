@@ -202,6 +202,7 @@ header .video .name h1 {
     width: 40%;
     height: auto;
     min-height: 200px;
+    padding: 15px;
 }
 .news p {
     font-family: Segoe UI, sans-serif;
@@ -261,7 +262,8 @@ header .video .name h1 {
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-    height: 499px;
+    min-height: 499px;
+    height: auto;
 }
 .free h2 {
     display: flex;
@@ -311,4 +313,4 @@ header .video .name h1 {
     color: #a9a9a7;
     font-weight: 400;
     margin: 10px 10px 10px 10px;
-}
+}z
