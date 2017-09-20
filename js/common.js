@@ -6,5 +6,5 @@ $(document).ready(function () {
     $("#ani-zoom1").animated("flipInY", "fadeOut");
     $("#ani-zoom2").animated("flipInY", "fadeOut");
     $("#ani-left").animated("bounceInLeft", "fadeOut");
-    $("#ani-down").animated("bounceInDown", "fadeOut");
+    $("#ani-down").animated("bounceInUp", "fadeOut");
 });
